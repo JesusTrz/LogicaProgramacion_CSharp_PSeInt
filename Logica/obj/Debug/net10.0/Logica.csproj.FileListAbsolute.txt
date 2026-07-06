@@ -1,0 +1,14 @@
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\bin\Debug\net10.0\Logica.exe
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\bin\Debug\net10.0\Logica.deps.json
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\bin\Debug\net10.0\Logica.runtimeconfig.json
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\bin\Debug\net10.0\Logica.dll
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\bin\Debug\net10.0\Logica.pdb
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.AssemblyInfoInputs.cache
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.AssemblyInfo.cs
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.csproj.CoreCompileInputs.cache
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.dll
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\refint\Logica.dll
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.pdb
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.genruntimeconfig.cache
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\ref\Logica.dll
