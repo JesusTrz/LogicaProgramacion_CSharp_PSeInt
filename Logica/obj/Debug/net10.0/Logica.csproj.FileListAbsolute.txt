@@ -12,3 +12,4 @@ C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\refint\Logi
 C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.pdb
 C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.genruntimeconfig.cache
 C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\ref\Logica.dll
+C:\Users\yisus\Documents\LogicaProgramacion\Logica\obj\Debug\net10.0\Logica.sourcelink.json
