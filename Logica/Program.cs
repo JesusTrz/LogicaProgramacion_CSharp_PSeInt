@@ -11,6 +11,7 @@ class Program
         System.Console.WriteLine("3. Cálculo de nota media con ponderación");
         System.Console.WriteLine("4. Cálculo de salario neto");
         System.Console.WriteLine("5. Calculo de area y perimetro en base al radio de un circulo");
+        System.Console.WriteLine("6. Conversion de Celsius a Fahrenheit y Kelvin");
 
         int opcion = int.Parse(System.Console.ReadLine()!);
         
@@ -30,6 +31,9 @@ class Program
                 break;
             case 5:
                 Ejercicio5.Ejercicio();
+                break;
+            case 6:
+                Ejercicio6.Ejercicio();
                 break;
             default:
                 System.Console.WriteLine("Opción no válida. Por favor, selecciona un número del 1 al 4.");
