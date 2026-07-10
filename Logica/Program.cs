@@ -12,6 +12,8 @@ class Program
         System.Console.WriteLine("4. Cálculo de salario neto");
         System.Console.WriteLine("5. Calculo de area y perimetro en base al radio de un circulo");
         System.Console.WriteLine("6. Conversion de Celsius a Fahrenheit y Kelvin");
+        System.Console.WriteLine("7. Coeficientes a, b y c en ecuaciones de segundo grado");
+        System.Console.WriteLine("8. Sen, Cos y Tan de un angulo");
 
         int opcion = int.Parse(System.Console.ReadLine()!);
         
@@ -34,6 +36,12 @@ class Program
                 break;
             case 6:
                 Ejercicio6.Ejercicio();
+                break;
+            case 7:
+                Ejercicio7.Ejercicio();
+                break;
+            case 8:
+                Ejercicio8.Ejercicio();
                 break;
             default:
                 System.Console.WriteLine("Opción no válida. Por favor, selecciona un número del 1 al 4.");
