@@ -8,7 +8,7 @@ Lo que se utiliza para realizar esto es lo siguiente:
 - PsInt: Para escribir algoritmos utilizando un pseudolenguaje en español.
 - C#: Para transcribir esos algoritmos de PsInt
 - SublimeText: Como editor de codigo para evitar ayuda con el autocompletado con IA de VsCode
-
+- **USO DE IA:** SOLO PARA RESPONDER DUDAS SIN LA NECESIDAD DE QUE ESCRIBA LA RESPUESTA DE LOS EJERCICIOS
 ---
 
 ## Temas Vistos (Actualmente)
