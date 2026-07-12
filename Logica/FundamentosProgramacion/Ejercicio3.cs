@@ -9,6 +9,7 @@ public class Ejercicio3
 {
     public static void Ejercicio()
     {
+        Console.Clear();
         double cal1, cal2, cal3, cal4, total;
         System.Console.WriteLine("Programa para calcular la nota media de un alumno en base a 4 calificaciones con ponderación.");
         System.Console.WriteLine("Escribe la primera calificación: ");

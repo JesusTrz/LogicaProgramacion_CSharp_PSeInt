@@ -2,6 +2,7 @@ public class Ejercicio9()
 {
 	public static void Ejercicio()
 	{
+		Console.Clear();
 		double seguntosTotales, segundosTemporal, segundos;
 		int horas, minutos;
 

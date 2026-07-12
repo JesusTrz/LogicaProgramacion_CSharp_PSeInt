@@ -2,6 +2,7 @@ public class Ejercicio10()
 {
 	public static void Ejercicio() 
 	{
+		Console.Clear();
 		int num, dig1, dig2, dig3, total;
 		Console.WriteLine("Suma de un numero de tres digitos.");
 		Console.WriteLine("________________________________");

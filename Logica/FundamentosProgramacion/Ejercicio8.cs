@@ -2,6 +2,7 @@ public class Ejercicio8()
 {
     public static void Ejercicio()
     {
+        Console.Clear();
         double grados, radian;
 
         Console.WriteLine("Calculo de Sen, Cos y Tan de un angulo");

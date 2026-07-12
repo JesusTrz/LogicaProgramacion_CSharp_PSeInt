@@ -5,6 +5,7 @@ public class Ejercicio1
 {
     public static void Ejercicio()
     {
+        Console.Clear();
         int num1, num2;
         System.Console.WriteLine("Programa de operaciones matemáticas entre dos números.");
         System.Console.WriteLine("Escribe un número: ");

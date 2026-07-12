@@ -2,6 +2,7 @@ public class Ejercicio6
 {
 	public static void Ejercicio()
 	{
+		Console.Clear();
 		double C, F, K;
 
 		System.Console.WriteLine("Conversion de Celsius a Fahrenheit y Celsius a Kelvin");

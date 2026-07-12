@@ -36,4 +36,4 @@ En base a esos coeficientes, se calcularán y mostrarán en la consola las dos s
 
 ---
 
-** ¡Suerte! **
+¡Suerte!

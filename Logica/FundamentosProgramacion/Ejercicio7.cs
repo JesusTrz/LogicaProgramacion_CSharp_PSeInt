@@ -2,6 +2,7 @@ public class Ejercicio7()
 {
 	public static void Ejercicio()
 	{
+		Console.Clear();
 		double a, b, c, x1, x2, discriminante;
 
 		System.Console.WriteLine("Calculo de Coeficientes A, B y C por Factorizacion y Formula General");

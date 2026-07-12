@@ -27,3 +27,13 @@ git clone https://github.com/JesusTrz/LogicaProgramacion_CSharp_PSeInt.git
 ```
 
 4. Una vez clonado, ya solo es custion de igresar al proyecto desde tu IDE preferido.
+5. Navegar a la ruta a la que se guardo el proyecto en la raiz de: **/LogicaProgramacion/Logica**
+6. Ejecutar de ser necesario:
+```
+dotnet clean
+dotnet build
+```
+7. Para Ejecutar el programa:
+```
+dotnet run
+```

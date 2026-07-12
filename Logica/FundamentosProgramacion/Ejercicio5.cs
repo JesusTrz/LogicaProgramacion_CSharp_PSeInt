@@ -2,6 +2,7 @@ public class Ejercicio5
 {
     public static void Ejercicio()
     {
+        Console.Clear();
         double radio, area, perimetro;
 
         System.Console.WriteLine("Programa para calcular el area y perimetro de un circulo en base al radio.");

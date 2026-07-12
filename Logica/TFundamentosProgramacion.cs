@@ -2,8 +2,11 @@ public class FundamentosProgramacion()
 {
 	public static void Tema()
 	{
-		// Desde aquí llamamos a la clase y método de tu ejercicio
-        System.Console.WriteLine("Bienvenido al programa de ejercicios. Por favor, selecciona un ejercicio para ejecutar:");
+		Console.Clear(); // Limpiar consola antes 
+        System.Console.WriteLine("¡Bienvenido al tema: Fundamentos de la Programacion!");
+        System.Console.WriteLine("Porfavor, elige un ejercicio a ejecutar:");
+        System.Console.WriteLine("___________________________________________________");
+
         System.Console.WriteLine("1. Operaciones matemáticas entre dos números");
         System.Console.WriteLine("2. Cálculo de nota media");
         System.Console.WriteLine("3. Cálculo de nota media con ponderación");
@@ -15,8 +18,14 @@ public class FundamentosProgramacion()
         System.Console.WriteLine("9. Conversor de Segundos");
         System.Console.WriteLine("10. Total de numero de 3 digitos.");
 
+        System.Console.WriteLine("___________________________________________________");
+        System.Console.WriteLine("Si ya realizaste estos ejercicios antes de ejecutar el programa, ¡FELICIDADES!");
+        System.Console.WriteLine("___________________________________________________");
+
         int opcion = int.Parse(System.Console.ReadLine()!);
         
+
+        // Desde aquí llamamos a la clase y método de tu ejercicio
         switch (opcion)
         {
             case 1:

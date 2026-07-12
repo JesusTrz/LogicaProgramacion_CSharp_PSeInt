@@ -9,6 +9,7 @@ public class Ejercicio4
 {
     public static void Ejercicio()
     {
+        Console.Clear();
         double salario, total, impuestos, cotizacionSocial, seguroMedico, deducciones;
 
         System.Console.WriteLine("Programa para calcular el salario neto de un trabajador.");

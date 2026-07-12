@@ -4,6 +4,7 @@ public class Ejercicio2
 {
     public static void Ejercicio()
     {
+        Console.Clear();
         int cal1, cal2, cal3, total;
         System.Console.WriteLine("Programa para calcular la nota media de un alumno en base a 3 calificaciones.");
         System.Console.WriteLine("Escribe la primera calificación: ");
