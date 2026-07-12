@@ -21,7 +21,8 @@ public class EstructuraDesicion()
         System.Console.WriteLine("Porfavor, elige un ejercicio a ejecutar:");
         System.Console.WriteLine("___________________________________________________");
 
-        System.Console.WriteLine("1. ");
+        System.Console.WriteLine("1. Descuento de Articulo del 5%");
+        System.Console.WriteLine("2. ");
 
         System.Console.WriteLine("___________________________________________________");
         System.Console.WriteLine("Si ya realizaste estos ejercicios antes de ejecutar el programa, ¡FELICIDADES!");
@@ -34,34 +35,7 @@ public class EstructuraDesicion()
         switch (opcion)
         {
             case 1:
-                Ejercicio1.Ejercicio();
-                break;
-            case 2:
-                Ejercicio2.Ejercicio();
-                break;
-            case 3:
-                Ejercicio3.Ejercicio();
-                break;
-            case 4:
-                Ejercicio4.Ejercicio();
-                break;
-            case 5:
-                Ejercicio5.Ejercicio();
-                break;
-            case 6:
-                Ejercicio6.Ejercicio();
-                break;
-            case 7:
-                Ejercicio7.Ejercicio();
-                break;
-            case 8:
-                Ejercicio8.Ejercicio();
-                break;
-            case 9:
-                Ejercicio9.Ejercicio();
-                break;
-            case 10:
-                Ejercicio10.Ejercicio();
+                EstructuraDecicionEjercicio1.Ejercicio();
                 break;
             default:
                 System.Console.WriteLine("Opción no válida.");

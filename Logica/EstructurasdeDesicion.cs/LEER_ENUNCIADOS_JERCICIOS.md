@@ -6,7 +6,8 @@ Nota: Los ejercicios resueltos pueden ser mejorados, depende de la logica que te
 ---
 **Estrucura Si - Entonces**
 
-1.
+1. Escibe un programa que calculeel precio final de un articulo. El usuario introducirá el precio sin descuento y su precio final tenrá un descuento del **5%** únicamente si su precio es **superior a 400$**
+
 2.
 3.
 4.
