@@ -37,3 +37,18 @@ dotnet build
 ```
 dotnet run
 ```
+
+---
+
+## Estructura de Carpetas
+```
+C:.
+├───Logica // Pseudocodigo a C#
+│   ├───bin
+│   ├───EstructurasdeDesicion 
+│   └───FundamentosProgramacion
+│   
+└───PsInt // Pseudocodigo Resuelto
+    ├───Estructuras de Desicion 
+    └───Fundamentos
+```
