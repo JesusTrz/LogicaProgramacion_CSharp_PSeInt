@@ -3,7 +3,25 @@ public class FundamentosProgramacion()
 	public static void Tema()
 	{
 		Console.Clear(); // Limpiar consola antes 
-        System.Console.WriteLine("¡Bienvenido al tema: Fundamentos de la Programacion!");
+        System.Console.WriteLine("===================================================");
+
+        System.Console.WriteLine("¡Bienvenido al tema: FUNDAMENTOS DE LA PROGRAMACIÓN!");
+
+        System.Console.WriteLine("===================================================");
+
+        Console.WriteLine("La lógica de programación es la base de todo el software.");
+        Console.WriteLine("Consiste en pensar paso a paso para resolver un problema, ");
+        Console.WriteLine("dándole instrucciones claras y precisas a la computadora.\n");
+        
+        Console.WriteLine("Se apoya en tres pilares fundamentales:");
+        Console.WriteLine("1. Secuencia: Las instrucciones se ejecutan en orden, una tras otra.");
+        Console.WriteLine("2. Selección: Usamos 'If/Else' para tomar decisiones basadas en condiciones.");
+        Console.WriteLine("3. Iteración: Usamos ciclos (como 'for' o 'while') para repetir acciones.\n");
+        
+        Console.WriteLine("¡Si dominas estos tres conceptos, puedes aprender cualquier lenguaje!");
+
+        System.Console.WriteLine("===================================================");
+
         System.Console.WriteLine("Porfavor, elige un ejercicio a ejecutar:");
         System.Console.WriteLine("___________________________________________________");
 

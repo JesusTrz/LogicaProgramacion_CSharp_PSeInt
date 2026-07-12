@@ -8,7 +8,7 @@ class Program
         // Desde aquí llamamos a la clase y método de tu ejercicio
         System.Console.WriteLine("===================================================");
 
-        System.Console.WriteLine("Bienvenido al programa de ejercicios de Logica de programación.");
+        System.Console.WriteLine("Bienvenido al programa de Ejercicios de Logica de Programación.");
 
         System.Console.WriteLine("___________________________________________________");
 
@@ -24,7 +24,7 @@ class Program
         System.Console.WriteLine("___________________________________________________");
         System.Console.WriteLine(" PARA SALIR DEL PROGRAMA, PRESIONA: CTRL + C");
 
-        System.Console.WriteLine("___________________________________________________");
+        System.Console.WriteLine("===================================================");
         System.Console.WriteLine("¡Mucha Suerte!");
         System.Console.WriteLine("===================================================");
 
