@@ -13,7 +13,7 @@ Lo que se utiliza para realizar esto es lo siguiente:
 
 ## Temas Vistos (Actualmente)
 1. Fundamentos de la Logica de Programacion
-
+2. Estructuras de Desicion (En Progreso)
 ---
 
 ## Bajar Repositorio

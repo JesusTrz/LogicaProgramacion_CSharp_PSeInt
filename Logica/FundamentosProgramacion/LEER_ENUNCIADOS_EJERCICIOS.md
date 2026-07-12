@@ -1,5 +1,5 @@
-## Indice de Ejercicios
-# Enunciados Completos (Recomendable hacer por cuenta propia antes de ver la respuesta)
+# Indice de Ejercicios sobre FUNDAMENTOS DE LA PROGRAMACIÓN
+## Enunciados Completos (Recomendable hacer por cuenta propia antes de ver la respuesta)
 
 Nota: Los ejercicios resueltos pueden ser mejorados, depende de la logica que tengas o vayas armando :)
 
