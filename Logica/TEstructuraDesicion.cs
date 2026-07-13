@@ -22,7 +22,9 @@ public class EstructuraDesicion()
         System.Console.WriteLine("___________________________________________________");
 
         System.Console.WriteLine("1. Descuento de Articulo del 5%");
-        System.Console.WriteLine("2. ");
+        System.Console.WriteLine("2. Aprobado o Suspendido");
+        System.Console.WriteLine("3. Dentro o Fuera de Rango");
+
 
         System.Console.WriteLine("___________________________________________________");
         System.Console.WriteLine("Si ya realizaste estos ejercicios antes de ejecutar el programa, ¡FELICIDADES!");
@@ -36,6 +38,12 @@ public class EstructuraDesicion()
         {
             case 1:
                 EstructuraDecicionEjercicio1.Ejercicio();
+                break;
+            case 2:
+                EstructuraDecicionEjercicio2.Ejercicio();
+                break;
+            case 3:
+                EstructuraDecicionEjercicio3.Ejercicio();
                 break;
             default:
                 System.Console.WriteLine("Opción no válida.");

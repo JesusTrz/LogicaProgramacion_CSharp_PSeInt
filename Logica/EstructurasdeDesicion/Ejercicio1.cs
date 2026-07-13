@@ -14,7 +14,7 @@ public class EstructuraDecicionEjercicio1
 
 		precio = double.Parse(System.Console.ReadLine()!);
 
-		if(precio > 400)|||
+		if(precio > 400)
 		{
 			totalCalculo = precio * 5 / 100;
 			total = precio - totalCalculo;

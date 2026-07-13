@@ -8,8 +8,14 @@ Nota: Los ejercicios resueltos pueden ser mejorados, depende de la logica que te
 
 1. Escibe un programa que calculeel precio final de un articulo. El usuario introducirá el precio sin descuento y su precio final tenrá un descuento del **5%** únicamente si su precio es **superior a 400$**
 
-2.
-3.
+2. Escribe un Programa al que se le introduce una nota y muestra en pantalla, si el alumno ha aprobado o no, dependiendo de su nota final. EL alumno aprobará si su nota es mayor o igual a 6, y suspendera si su nota es menor a 6
+
+3. Escribe un programa que diga si un número está dentro o fuera de rango. EL usuario introducirá el límite inferior y superior del rango y el número que se desea comprobar
+- Ejemplo:
+Rango: [2 , 5]
+Numero: 3 -> Dentro del rango
+Numero: 7 -> Fuera del rango
+
 4.
 5.
 6.
