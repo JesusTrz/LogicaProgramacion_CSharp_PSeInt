@@ -22,11 +22,8 @@ El usuario introducirá el límite ingerior y superior de los rangos y el númer
 Ejemplo:
 
 | Rango | Numero | Resultado |
-|:---|:---:|---:|
 |[2,5], [8,12]|9|Dentro|
-|:---|:---:|---:|
 |[2,5], [8,12]|6|Fuera|
-|:---|:---:|---:|
 
 5.
 6.
