@@ -17,7 +17,16 @@ Numero: 3 -> Dentro del rango
 
 Numero: 7 -> Fuera del rango
 
-4.
+4. Escribe un programa que diga si un número está dentro de dos rangos sepparados.
+El usuario introducirá el límite ingerior y superior de los rangos y el número que se desea comprobar.
+Ejemplo:
+| Rango | Numero | Resultado |
+|:---|:---:|---:|
+|[2,5], [8,12]|9|Dentro|
+|:---|:---:|---:|
+|[2,5], [8,12]|6|Fuera|
+|:---|:---:|---:|
+
 5.
 6.
 7.
