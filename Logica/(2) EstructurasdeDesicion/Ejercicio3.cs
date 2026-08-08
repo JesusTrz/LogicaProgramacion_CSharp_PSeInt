@@ -1,8 +1,8 @@
-public class EstructuraDecicionEjercicio3
+public class EstructuraDecicionEjercicio3 : EjercicioBase
 {
-	public static void Ejercicio()
+	public void Ejercicio()
 	{
-		Console.Clear();
+		base.PrepararConsola();
 		int num, R1, R2;
 		System.Console.WriteLine("Verificar si un numero esta dentro o fuera de un rango establecido.");
 		System.Console.WriteLine("====================================================================");

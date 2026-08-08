@@ -25,16 +25,16 @@ public class FundamentosProgramacion()
         System.Console.WriteLine("Porfavor, elige un ejercicio a ejecutar:");
         System.Console.WriteLine("___________________________________________________");
 
-        System.Console.WriteLine("1. Operaciones matemáticas entre dos números");
-        System.Console.WriteLine("2. Cálculo de nota media");
-        System.Console.WriteLine("3. Cálculo de nota media con ponderación");
-        System.Console.WriteLine("4. Cálculo de salario neto");
-        System.Console.WriteLine("5. Calculo de area y perimetro en base al radio de un circulo");
-        System.Console.WriteLine("6. Conversion de Celsius a Fahrenheit y Kelvin");
-        System.Console.WriteLine("7. Coeficientes a, b y c en ecuaciones de segundo grado");
-        System.Console.WriteLine("8. Sen, Cos y Tan de un angulo");
-        System.Console.WriteLine("9. Conversor de Segundos");
-        System.Console.WriteLine("10. Total de numero de 3 digitos.");
+        System.Console.WriteLine("(1) Operaciones matemáticas entre dos números");
+        System.Console.WriteLine("(2) Cálculo de nota media");
+        System.Console.WriteLine("(3) Cálculo de nota media con ponderación");
+        System.Console.WriteLine("(4) Cálculo de salario neto");
+        System.Console.WriteLine("(5) Calculo de area y perimetro en base al radio de un circulo");
+        System.Console.WriteLine("(6) Conversion de Celsius a Fahrenheit y Kelvin");
+        System.Console.WriteLine("(7) Coeficientes a, b y c en ecuaciones de segundo grado");
+        System.Console.WriteLine("(8) Sen, Cos y Tan de un angulo");
+        System.Console.WriteLine("(9) Conversor de Segundos");
+        System.Console.WriteLine("(10) Total de numero de 3 digitos.");
 
         System.Console.WriteLine("___________________________________________________");
         System.Console.WriteLine("Si ya realizaste estos ejercicios antes de ejecutar el programa, ¡FELICIDADES!");

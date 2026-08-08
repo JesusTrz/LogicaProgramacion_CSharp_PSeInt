@@ -18,8 +18,8 @@ class Program
         System.Console.WriteLine("===================================================");
 
         System.Console.WriteLine("Por favor, selecciona un Tema para ejecutar:");
-        System.Console.WriteLine("1. FUNDAMENTOS DE LA PROGRAMACIÓN");
-        System.Console.WriteLine("2. ESTRUCTURAS DE DESICIÓN.");
+        System.Console.WriteLine("(1) FUNDAMENTOS DE LA PROGRAMACIÓN");
+        System.Console.WriteLine("(2) ESTRUCTURAS DE DESICIÓN.");
 
         System.Console.WriteLine("___________________________________________________");
         System.Console.WriteLine(" PARA SALIR DEL PROGRAMA, PRESIONA: CTRL + C");
