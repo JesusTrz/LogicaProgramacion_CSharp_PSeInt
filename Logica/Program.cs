@@ -8,7 +8,25 @@ class Program
         // Desde aquí llamamos a la clase y método de tu ejercicio
         System.Console.WriteLine("===================================================");
 
-        System.Console.WriteLine("Bienvenido al programa de Ejercicios de Logica de Programación.");
+        string tituloAscii = @"
+          ____  _                           _     _       
+         |  _ \(_)                         (_)   | |      
+         | |_) |_  ___ _ ____   _____ _ __  _  __| | ___  
+         |  _ <| |/ _ \ '_ \ \ / / _ \ '_ \| |/ _` |/ _ \ 
+         | |_) | |  __/ | | \ V /  __/ | | | | (_| | (_) |
+         |____/|_|\___|_| |_|\_/ \___|_| |_|_|\__,_|\___/ 
+            ";
+            Console.WriteLine(tituloAscii);
+
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            
+            // Usamos espacios para centrar el texto debajo del título
+            Console.WriteLine("      ========================================");
+            Console.WriteLine("        EJERCICIOS DE LÓGICA DE PROGRAMACIÓN");
+            Console.WriteLine("      ========================================\n");
+
+            // Restauramos el color original
+            Console.ResetColor();
 
         System.Console.WriteLine("___________________________________________________");
 
@@ -18,9 +36,10 @@ class Program
         System.Console.WriteLine("===================================================");
 
         System.Console.WriteLine("Por favor, selecciona un Tema para ejecutar:");
+        Console.ForegroundColor = ConsoleColor.Cyan;
         System.Console.WriteLine("(1) FUNDAMENTOS DE LA PROGRAMACIÓN");
         System.Console.WriteLine("(2) ESTRUCTURAS DE DESICIÓN.");
-
+        Console.ResetColor();
         System.Console.WriteLine("___________________________________________________");
         System.Console.WriteLine(" PARA SALIR DEL PROGRAMA, PRESIONA: CTRL + C");
 

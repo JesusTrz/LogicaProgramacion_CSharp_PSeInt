@@ -20,13 +20,13 @@ public class EstructuraDesicion()
 
         System.Console.WriteLine("Porfavor, elige un ejercicio a ejecutar:");
         System.Console.WriteLine("___________________________________________________");
-
+        Console.ForegroundColor = ConsoleColor.Cyan;
         System.Console.WriteLine("(1) Descuento de Articulo del 5%");
         System.Console.WriteLine("(2) Aprobado o Suspendido");
         System.Console.WriteLine("(3) Dentro o Fuera de Rango");
         System.Console.WriteLine("(4) Dentro o Fuera de Dos Rango");
-
-
+        System.Console.WriteLine("(5) Inicio de Sesion Logico");
+        Console.ResetColor();
         System.Console.WriteLine("___________________________________________________");
         System.Console.WriteLine("Si ya realizaste estos ejercicios antes de ejecutar el programa, ¡FELICIDADES!");
         System.Console.WriteLine("___________________________________________________");
@@ -52,6 +52,10 @@ public class EstructuraDesicion()
             case 4:
                 EstructuraDecicionEjercicio4 ejercicio4 = new EstructuraDecicionEjercicio4();
                 ejercicio4.Ejercicio();
+                break;
+            case 5:
+                EstructuraDecicionEjercicio5 ejercicio5 = new EstructuraDecicionEjercicio5();
+                ejercicio5.Ejercicio();
                 break;
             default:
                 System.Console.WriteLine("Opción no válida.");
