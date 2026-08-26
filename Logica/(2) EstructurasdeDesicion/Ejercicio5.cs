@@ -10,7 +10,8 @@ public class EstructuraDecicionEjercicio5 : EjercicioBase
 		user = System.Console.ReadLine()!;
 		System.Console.WriteLine("Escribe tu Contraseña: ");
 		password = System.Console.ReadLine()!;
-		if (user.ToLower() == userReal.ToLower() && password == passwordReal){
+		if (user.ToLower() == userReal.ToLower() && password == passwordReal)
+		{
 			System.Console.WriteLine("!Bienvenido de nuevo " + userReal + "¡");
 		}
 		else

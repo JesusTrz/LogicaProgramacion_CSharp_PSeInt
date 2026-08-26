@@ -103,7 +103,11 @@ El programa deberá comparar los datos introducidos con los datos almacenados.
 
 ---
 
-### 6.
+### 6. Triangulo válido en base a sus angulos
+
+Escribe un programa que comprueba si un triángulo es válido en base a sus ángulos
+Para que un triangulo sea válido, sus tres angulos deben ser positivos, por debajo de 180 grados
+y la suma debe ser igual a 180 grados
 
 ### 7.
 
