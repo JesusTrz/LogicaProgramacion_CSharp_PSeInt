@@ -1,5 +1,5 @@
 # Ejercicios de Logica de Programacion de PsInt a C#
-## Solo Ejecuciones desde Cnsola
+## Solo Ejecuciones desde Consola
 
 Este proyecto es o espero sea la prueba viviente de que es necesario saber más de la **logica** antes de hacerlo todo con **IA**. 
 

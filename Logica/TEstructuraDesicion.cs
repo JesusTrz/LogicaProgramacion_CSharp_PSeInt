@@ -26,7 +26,8 @@ public class EstructuraDesicion()
         System.Console.WriteLine("(3) Dentro o Fuera de Rango");
         System.Console.WriteLine("(4) Dentro o Fuera de Dos Rango");
         System.Console.WriteLine("(5) Inicio de Sesion Logico");
-        System.Console.WriteLine("(6) Triangulo Valido");
+        System.Console.WriteLine("(6) Triangulo Valido (Por angulos)");
+        System.Console.WriteLine("(7) Triangulo Valido (Por base)");
         Console.ResetColor();
         System.Console.WriteLine("___________________________________________________");
         System.Console.WriteLine("Si ya realizaste estos ejercicios antes de ejecutar el programa, ¡FELICIDADES!");
@@ -61,6 +62,10 @@ public class EstructuraDesicion()
             case 6:
                 EstructuraDecicionEjercicio6 ejercicio6 = new EstructuraDecicionEjercicio6();
                 ejercicio6.Ejercicio();
+                break;
+            case 7:
+                EstructuraDecicionEjercicio7 ejercicio7 = new EstructuraDecicionEjercicio7();
+                ejercicio7.Ejercicio();
                 break;
             default:
                 System.Console.WriteLine("Opción no válida.");

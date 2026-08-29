@@ -1,3 +1,5 @@
+using Spectre.Console;
+
 public class EstructuraDecicionEjercicio6 : EjercicioBase
 {
 	public void Ejercicio()

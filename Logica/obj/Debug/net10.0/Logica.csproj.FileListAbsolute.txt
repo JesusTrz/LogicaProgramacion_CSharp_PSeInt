@@ -28,3 +28,7 @@ C:\LogicaProgramacion_CSharp_PSeInt\Logica\obj\Debug\net10.0\refint\Logica.dll
 C:\LogicaProgramacion_CSharp_PSeInt\Logica\obj\Debug\net10.0\Logica.pdb
 C:\LogicaProgramacion_CSharp_PSeInt\Logica\obj\Debug\net10.0\Logica.genruntimeconfig.cache
 C:\LogicaProgramacion_CSharp_PSeInt\Logica\obj\Debug\net10.0\ref\Logica.dll
+C:\LogicaProgramacion_CSharp_PSeInt\Logica\bin\Debug\net10.0\Spectre.Console.dll
+C:\LogicaProgramacion_CSharp_PSeInt\Logica\bin\Debug\net10.0\Spectre.Console.Ansi.dll
+C:\LogicaProgramacion_CSharp_PSeInt\Logica\obj\Debug\net10.0\Logica.csproj.AssemblyReference.cache
+C:\LogicaProgramacion_CSharp_PSeInt\Logica\obj\Debug\net10.0\Logica.csproj.Up2Date
