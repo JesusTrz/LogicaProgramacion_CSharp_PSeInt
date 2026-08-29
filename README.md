@@ -4,51 +4,25 @@
 Este proyecto es o espero sea la prueba viviente de que es necesario saber más de la **logica** antes de hacerlo todo con **IA**. 
 
 Lo que se utiliza para realizar esto es lo siguiente:
-- Udemy: Fundamentos y Logica de Programacion (Curso).
-- PsInt: Para escribir algoritmos utilizando un pseudolenguaje en español.
-- C#: Para transcribir esos algoritmos de PsInt
-- SublimeText: Como editor de codigo para evitar ayuda con el autocompletado con IA de VsCode
-- **USO DE IA:** SOLO PARA RESPONDER DUDAS SIN LA NECESIDAD DE QUE ESCRIBA LA RESPUESTA DE LOS EJERCICIOS
+* Udemy: Fundamentos y Logica de Programacion (Curso).
+* PsInt: Para escribir algoritmos utilizando un pseudolenguaje en español.
+* C#: Para transcribir esos algoritmos de PsInt
+* SublimeText: Como editor de codigo para evitar ayuda con el autocompletado con IA de VsCode
+* Spectre.Console: Librería de C# para generar la interfaz gráfica e interactiva en la terminal.
+* **USO DE IA:** SOLO PARA RESPONDER DUDAS SIN LA NECESIDAD DE QUE ESCRIBA LA RESPUESTA DE LOS EJERCICIOS
+
 ---
 
 ## Temas Vistos (Actualmente)
 1. Fundamentos de la Logica de Programacion
 2. Estructuras de Desicion (En Progreso)
+
 ---
 
-## Bajar Repositorio
+## Bajar Repositorio e Instalación
 
 1. Copia el link del [Repositorio](https://github.com/JesusTrz/LogicaProgramacion_CSharp_PSeInt.git)
 2. Desde **PowerShell** o **CMD** navega a una carpeta o una ruta. *Ejemplo: C://LogicaProgramacion*
 3. Ingresa el siguiente comando: 
-
-```
-git clone https://github.com/JesusTrz/LogicaProgramacion_CSharp_PSeInt.git
-```
-
-4. Una vez clonado, ya solo es custion de igresar al proyecto desde tu IDE preferido.
-5. Navegar a la ruta a la que se guardo el proyecto en la raiz de: **/LogicaProgramacion/Logica**
-6. Ejecutar de ser necesario:
-```
-dotnet clean
-dotnet build
-```
-7. Para Ejecutar el programa:
-```
-dotnet run
-```
-
----
-
-## Estructura de Carpetas
-```
-C:.
-├───Logica // Pseudocodigo a C#
-│   ├───bin
-│   ├───EstructurasdeDesicion 
-│   └───FundamentosProgramacion
-│   
-└───PsInt // Pseudocodigo Resuelto
-    ├───Estructuras de Desicion 
-    └───Fundamentos
-```
+```bash
+git clone [https://github.com/JesusTrz/LogicaProgramacion_CSharp_PSeInt.git](https://github.com/JesusTrz/LogicaProgramacion_CSharp_PSeInt.git)
