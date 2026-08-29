@@ -109,7 +109,9 @@ Escribe un programa que comprueba si un triángulo es válido en base a sus áng
 Para que un triangulo sea válido, sus tres angulos deben ser positivos, por debajo de 180 grados
 y la suma debe ser igual a 180 grados
 
-### 7.
+### 7. Triangulo válido en base a sus bases
+
+Escribe un programa que comprueba si un triangulo en base a sus laterales. Para que un triangulo sea válido, la suma de dos laterales cualquiera debe ser superior al otro lado lateral
 
 ### 8.
 
