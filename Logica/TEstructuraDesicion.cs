@@ -1,75 +1,82 @@
+using Spectre.Console;
+
 public class EstructuraDesicion()
 {
 	public static void Tema()
 	{
 		Console.Clear(); // Limpiar consola antes 
-        
-        System.Console.WriteLine("===================================================");
 
-        System.Console.WriteLine("¡Bienvenido al tema: ESTRUCTURAS DE DESICIÓN!");
+         AnsiConsole.MarkupLine("[bold]Bienvenido al tema de [/] [green]Estructura de Desiciones[/]");
 
-        System.Console.WriteLine("===================================================");
+        AnsiConsole.Write(new Rule()); // Linea de Separador
 
-        Console.WriteLine("En la vida real, tomamos decisiones todo el tiempo:");
-        Console.WriteLine("'SI llueve, llevo paraguas; DE LO CONTRARIO, no lo llevo'.\n");
-        
-        Console.WriteLine("En programación, hacemos exactamente lo mismo usando 'if' (si) y 'else' (de lo contrario).");
-        Console.WriteLine("Estas estructuras le permiten a tu código evaluar una condición y elegir qué camino tomar.\n");
+        var textoTeoria = 
+            "En la vida real, tomamos decisiones todo el tiempo:\n" +
+            "'[bold yellow]SI[/] llueve, llevo paraguas; [bold yellow]DE LO CONTRARIO[/], no lo llevo'.\n\n" +
+            "En programación, hacemos exactamente lo mismo usando '[bold blue]if[/]' (si) y '[bold blue]else[/]' (de lo contrario).\n" +
+            "Estas estructuras le permiten a tu código evaluar una [underline cyan]condición[/] y elegir qué camino tomar.";
 
-        System.Console.WriteLine("===================================================");
+        var panel = new Panel(textoTeoria)
+        {
+            Header = new PanelHeader("[bold green] Concepto: Estructuras de Decisión [/]"),
+            Border = BoxBorder.Rounded,
+            Padding = new Padding(1, 1, 1, 1) // Agrega un espacio entre el texto y el borde
+        };
 
-        System.Console.WriteLine("Porfavor, elige un ejercicio a ejecutar:");
-        System.Console.WriteLine("___________________________________________________");
-        Console.ForegroundColor = ConsoleColor.Cyan;
-        System.Console.WriteLine("(1) Descuento de Articulo del 5%");
-        System.Console.WriteLine("(2) Aprobado o Suspendido");
-        System.Console.WriteLine("(3) Dentro o Fuera de Rango");
-        System.Console.WriteLine("(4) Dentro o Fuera de Dos Rango");
-        System.Console.WriteLine("(5) Inicio de Sesion Logico");
-        System.Console.WriteLine("(6) Triangulo Valido (Por angulos)");
-        System.Console.WriteLine("(7) Triangulo Valido (Por base)");
-        Console.ResetColor();
-        System.Console.WriteLine("___________________________________________________");
-        System.Console.WriteLine("Si ya realizaste estos ejercicios antes de ejecutar el programa, ¡FELICIDADES!");
-        System.Console.WriteLine("___________________________________________________");
+        AnsiConsole.Write(panel);
+        Console.WriteLine(); // Salto de línea para separar del siguiente elemento
 
-        int opcion = int.Parse(System.Console.ReadLine()!);
-        
+        string opcionSeleccionada = AnsiConsole.Prompt(
+            new SelectionPrompt<string>()
+                .Title("[bold green]¿Qué ejercicio deseas probar hoy?[/]")
+                .PageSize(10) // Cantidad de opciones visibles antes de hacer scroll
+                .HighlightStyle(new Style(foreground: Color.Cyan1))
+                .AddChoices(new[] 
+                {
+                    "Descuento de Articulo del 5%",
+                    "Aprobado o Suspendido",
+                    "Dentro o Fuera de Rango",
+                    "Dentro o Fuera de Dos Rangos",
+                    "Inicio de Sesion Logico",
+                    "Triangulo Valido (Por angulos)",
+                    "Triangulo Valido (Por base)",
+                    "[red]Salir[/]"
+                }));
 
         // Desde aquí llamamos a la clase y método de tu ejercicio
-        switch (opcion)
+        switch (opcionSeleccionada)
         {
-            case 1:
+            case "Descuento de Articulo del 5%":
                 EstructuraDecicionEjercicio1 ejercicio1 = new EstructuraDecicionEjercicio1();
                 ejercicio1.Ejercicio();
                 break;
-            case 2:
+            case "Aprobado o Suspendido":
                 EstructuraDecicionEjercicio2 ejercicio2 = new EstructuraDecicionEjercicio2();
                 ejercicio2.Ejercicio();
                 break;
-            case 3:
+            case "Dentro o Fuera de Rango":
                 EstructuraDecicionEjercicio3 ejercicio3 = new EstructuraDecicionEjercicio3();
                 ejercicio3.Ejercicio();
                 break;
-            case 4:
+            case "Dentro o Fuera de Dos Rangos":
                 EstructuraDecicionEjercicio4 ejercicio4 = new EstructuraDecicionEjercicio4();
                 ejercicio4.Ejercicio();
                 break;
-            case 5:
+            case "Inicio de Sesion Logico":
                 EstructuraDecicionEjercicio5 ejercicio5 = new EstructuraDecicionEjercicio5();
                 ejercicio5.Ejercicio();
                 break;
-            case 6:
+            case "Triangulo Valido (Por angulos)":
                 EstructuraDecicionEjercicio6 ejercicio6 = new EstructuraDecicionEjercicio6();
                 ejercicio6.Ejercicio();
                 break;
-            case 7:
+            case "Triangulo Valido (Por base)":
                 EstructuraDecicionEjercicio7 ejercicio7 = new EstructuraDecicionEjercicio7();
                 ejercicio7.Ejercicio();
                 break;
-            default:
-                System.Console.WriteLine("Opción no válida.");
-                break;
+            case "[red]Salir[/]":
+                AnsiConsole.MarkupLine("[bold red]Cerrando el sistema...[/]");
+                return;
         }
 	}
 }
