@@ -4,13 +4,13 @@ public class EstructuraDesicion()
 {
 	public static void Tema()
 	{
-		Console.Clear(); // Limpiar consola antes 
+		Console.Clear(); // Limpiar consola antes
 
          AnsiConsole.MarkupLine("[bold]Bienvenido al tema de [/] [green]Estructura de Desiciones[/]");
 
         AnsiConsole.Write(new Rule()); // Linea de Separador
 
-        var textoTeoria = 
+        var textoTeoria =
             "En la vida real, tomamos decisiones todo el tiempo:\n" +
             "'[bold yellow]SI[/] llueve, llevo paraguas; [bold yellow]DE LO CONTRARIO[/], no lo llevo'.\n\n" +
             "En programación, hacemos exactamente lo mismo usando '[bold blue]if[/]' (si) y '[bold blue]else[/]' (de lo contrario).\n" +
@@ -31,7 +31,7 @@ public class EstructuraDesicion()
                 .Title("[bold green]¿Qué ejercicio deseas probar hoy?[/]")
                 .PageSize(10) // Cantidad de opciones visibles antes de hacer scroll
                 .HighlightStyle(new Style(foreground: Color.Cyan1))
-                .AddChoices(new[] 
+                .AddChoices(new[]
                 {
                     "Descuento de Articulo del 5%",
                     "Aprobado o Suspendido",
@@ -40,6 +40,7 @@ public class EstructuraDesicion()
                     "Inicio de Sesion Logico",
                     "Triangulo Valido (Por angulos)",
                     "Triangulo Valido (Por base)",
+                    "¿La letra es una Vocal o Consonante?",
                     "[red]Salir[/]"
                 }));
 
@@ -73,6 +74,10 @@ public class EstructuraDesicion()
             case "Triangulo Valido (Por base)":
                 EstructuraDecicionEjercicio7 ejercicio7 = new EstructuraDecicionEjercicio7();
                 ejercicio7.Ejercicio();
+                break;
+            case "¿La letra es una Vocal o Consonante?":
+                EstructuraDecicionEjercicio8 ejercicio8 = new EstructuraDecicionEjercicio8();
+                ejercicio8.Ejercicio();
                 break;
             case "[red]Salir[/]":
                 AnsiConsole.MarkupLine("[bold red]Cerrando el sistema...[/]");

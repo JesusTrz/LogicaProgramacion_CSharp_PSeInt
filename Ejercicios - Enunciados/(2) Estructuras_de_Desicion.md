@@ -113,7 +113,9 @@ y la suma debe ser igual a 180 grados
 
 Escribe un programa que comprueba si un triangulo en base a sus laterales. Para que un triangulo sea válido, la suma de dos laterales cualquiera debe ser superior al otro lado lateral
 
-### 8.
+### 8. ¿La letra es una Vocal o Consonante?
+
+Escribe un programa que compruebe si una letra es vocal o consonante.
 
 ### 9.
 
