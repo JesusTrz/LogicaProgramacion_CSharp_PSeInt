@@ -41,6 +41,7 @@ public class EstructuraDesicion()
                     "Triangulo Valido (Por angulos)",
                     "Triangulo Valido (Por base)",
                     "¿La letra es una Vocal o Consonante?",
+                    "¿La persona esta asegurada?",
                     "[red]Salir[/]"
                 }));
 
@@ -78,6 +79,10 @@ public class EstructuraDesicion()
             case "¿La letra es una Vocal o Consonante?":
                 EstructuraDecicionEjercicio8 ejercicio8 = new EstructuraDecicionEjercicio8();
                 ejercicio8.Ejercicio();
+                break;
+            case "¿La persona esta asegurada?":
+                EstructuraDecicionEjercicio9 ejercicio9 = new EstructuraDecicionEjercicio9();
+                ejercicio9.Ejercicio();
                 break;
             case "[red]Salir[/]":
                 AnsiConsole.MarkupLine("[bold red]Cerrando el sistema...[/]");

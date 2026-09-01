@@ -7,7 +7,7 @@ Lo que se utiliza para realizar esto es lo siguiente:
 - Udemy: Fundamentos y Logica de Programacion (Curso).
 - PsInt: Para escribir algoritmos utilizando un pseudolenguaje en español.
 - C#: Para transcribir esos algoritmos de PsInt
-- SublimeText: Como editor de codigo para evitar ayuda con el autocompletado con IA de VsCode
+- Cualquier Editor de Código que no tenga asistencia o prediccion entiempo real.
 - **USO DE IA:** SOLO PARA RESPONDER DUDAS SIN LA NECESIDAD DE QUE ESCRIBA LA RESPUESTA DE LOS EJERCICIOS
 ---
 
