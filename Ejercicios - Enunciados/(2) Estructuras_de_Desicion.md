@@ -109,13 +109,19 @@ Escribe un programa que comprueba si un triángulo es válido en base a sus áng
 Para que un triangulo sea válido, sus tres angulos deben ser positivos, por debajo de 180 grados
 y la suma debe ser igual a 180 grados
 
+---
+
 ### 7. Triangulo válido en base a sus bases
 
 Escribe un programa que comprueba si un triangulo en base a sus laterales. Para que un triangulo sea válido, la suma de dos laterales cualquiera debe ser superior al otro lado lateral
 
+---
+
 ### 8. ¿La letra es una Vocal o Consonante?
 
 Escribe un programa que compruebe si una letra es vocal o consonante.
+
+---
 
 ### 9. ¿La persona esta asegurada?
 
@@ -124,6 +130,8 @@ Una agencia de seguros únicamente asegura a personas que cumplan las siguientes
 - La persona no está casada, es hombre y tiene más de 30 años
 - La persona no está casada, es mujer y tiene más de 25 años
 Escribe un programa que compruebe si una persona está asegurada o no.
+
+---
 
 ### 10.
 
