@@ -129,6 +129,7 @@ Una agencia de seguros únicamente asegura a personas que cumplan las siguientes
 - La persona está casada
 - La persona no está casada, es hombre y tiene más de 30 años
 - La persona no está casada, es mujer y tiene más de 25 años
+
 Escribe un programa que compruebe si una persona está asegurada o no.
 
 ---
